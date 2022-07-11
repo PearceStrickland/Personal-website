@@ -1,0 +1,43 @@
+html {
+    background-color: gray;
+    scroll-behavior: smooth;
+  }
+
+.navbar {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    background-color: aliceblue;
+  }
+.nav-secs a {
+    text-decoration: none;
+    display: block;
+    font-size: 20px;
+    padding: 10px;
+  }
+.nav-secs {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    list-style: none;
+    margin-left: auto;
+    margin-right: auto;
+    
+
+    
+    
+    
+  }
+  
+  .prof-pic {
+    margin-top: 1400px;
+    border-radius: 50%;
+    margin-left: 12px;
+    width: 150px;
+    height: 150px;
+}
+.body {
+    width: 100%;
+    margin: 0;
+}
