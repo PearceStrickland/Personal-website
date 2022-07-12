@@ -1,14 +1,26 @@
 html {
-    background-color: gray;
+    background-color: darkslategray;
     scroll-behavior: smooth;
   }
+  *,
+  *::after,
+  *::before {
+    padding: 0;
+    margin: 0;
+  }
+  a
+{
+ color:white;
+}
 
 .navbar {
     display: flex;
     align-items: center;
+    justify-content: center;
     position: fixed;
-    width: 100%;
+    width: 80%;
     background-color: aliceblue;
+
   }
 .nav-secs a {
     text-decoration: none;
@@ -33,11 +45,53 @@ html {
   .prof-pic {
     margin-top: 1400px;
     border-radius: 50%;
-    margin-left: 12px;
+    margin-right: 40%;
+    margin-left: auto;
     width: 150px;
     height: 150px;
 }
-.body {
+.homepage {
+    display: flex;
     width: 100%;
-    margin: 0;
+    height: 1200px;
+    background-color: lightgrey;
+}
+.name {
+    margin-top: 7%;
+}
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 80px;
+    font-weight: 900;
+    display: flex; 
+    justify-content: center; 
+    width: 100%;
+  }
+  .fa {
+    display: inline-block;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    color: white;
+  }
+  .about {
+    color: white;
+  }
+  .fa-brands {
+    color: white;
+  }
+  #container {
+    margin-top: 20%;
+    display: flex;
+    flex-direction: row;     /* make main axis horizontal (default setting) */
+    justify-content: center; /* center items horizontally, in this case */
+    align-items: center;     /* center items vertically, in this case */
+    height: 300px;
+}
+.logo {
+    width: 100px;
+    margin: 5px;
+    text-align: center;     /* will center text in <p>, which is not a flex item */
 }
