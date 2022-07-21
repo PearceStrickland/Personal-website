@@ -1,5 +1,5 @@
 html {
-  background-image: url("images/blackback.jpg");
+  background-color: white;
   scroll-behavior: smooth;
 }
 *,
@@ -98,9 +98,11 @@ h5 {
 .homepage {
   display: flex;
   width: 100%;
-  height: 1600px;
+  height: fit-content;
+  
   background-color: lightgray;
   justify-content: center;
+  flex-flow: row wrap;
 }
 
 .button{
@@ -165,9 +167,21 @@ h5 {
   flex-direction: row;     /* make main axis horizontal (default setting) */
   align-items: center;     /* center items vertically, in this case */
   justify-content: center;
-  height: 100px;
+  height: fit-content;
   width: 100%;
   margin-top: 50px;
+  flex-flow: row wrap;
+}
+
+#attributes {
+  display: flex;
+  flex-direction: column;     
+  justify-content: center; /* center items horizontally, in this case */
+  width: 700px;
+  height: 300px;
+  margin-top: 280px;
+  margin-bottom: 300px;
+
 }
 
 #bio{
@@ -175,8 +189,9 @@ h5 {
   flex-direction: column;     
   justify-content: center; /* center items horizontally, in this case */
   height: 300px;
-  width: 100%;
-  margin-top: 800px;
+  width: 700px;
+  margin-top: 325px;
+  margin-bottom: 300px;
 }
 .textbio{
   margin-top: 100px;
@@ -185,21 +200,14 @@ h5 {
   line-height: 2;
 }
 
-#attributes {
-  display: flex;
-  flex-direction: column;     
-  justify-content: center; /* center items horizontally, in this case */
-  width: 100%;
-  height: 300px;
-  margin-top: 750px;
-}
 
 .portfolio {
   display: flex;
   flex-direction: column;
   background-color: lightslategray;
   width: 100%;
-  height: 1122px;
+  height: fit-content;
+
 }
 
 #project-cont {
@@ -207,7 +215,7 @@ h5 {
   flex-direction: row;     /* make main axis horizontal (default setting) */
   justify-content: center; /* center items horizontally, in this case */
   align-items: center;     /* center items vertically, in this case */
-  height: 100px;
+  height: fit-content;
   width: 100%;
   margin-top: 70px;
   flex-flow: row wrap;
