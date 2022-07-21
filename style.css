@@ -264,8 +264,12 @@ h5 {
   height: 14px;
   background: #d13639;
   border-radius: 3px;
-  position: relative;
+  
   animation: fillBars 2.5s 1;
+  text-align: right;
+  font-size: 13px;
+  color: white;
+  
 }
 
 .skill-per::before{
