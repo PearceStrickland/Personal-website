@@ -11,14 +11,14 @@
 <body>
     <nav class="navbar">
         <ul class="nav-secs">
-            <li><a href="#team">Home</a></li>
-            <li><a href='#portfolio'>About</a></li>
-            <li><a href="#quote-section">Projects</a></li>
+            <li><a href="#homepage">Home</a></li>
+            <li><a href='#bio'>About</a></li>
+            <li><a href="#portfolio">Projects</a></li>
             <li><a href="#contact-section">Contact</a></li>
             
           </ul>
     </nav>
-    <div class="homepage">
+    <div class="homepage" id="homepage">
         <div id="name">
             <h1>Pearce Strickland</h1>
             <h2>Georgia Tech Computer Science 2024</h2>
@@ -42,11 +42,72 @@
                 </div>
         
             </div>
-            <div class="about">
-                <a class ="prof-pic" href="?" ><img class="prof-pic" src="images/IMG_0488.jpeg" alt="Personal picture"></a>
+            <div id="intro">
+                <div class="bio" id="bio">
+                    <h2>About Me</h2>
+                    <div class="about">
+                        <a class ="prof-pic" href="?" ><img class="prof-pic" src="images/IMG_0488.jpeg" alt="Personal picture"></a>
+                    </div>
+
+                    <p class="textbio">I'm a third year computer science major at Georgia Tech 
+                        currently seeking a Summer 2023 Software Engineering or related intership. I have a
+                         focus on information internetworks and intelligence, as well as interest 
+                         in machine learning that I foster through research and projects. I have a 
+                         strong background in finance and am currently a Senior Quantitative Analyst for 
+                        Georgia Tech Investments Committtee</p>
+
+
+                </div>
+                <div class="attributes" id="attributes">
+                    <h2>Skills</h2>
+                    <div class="skills">
+
+                        <div class="skill">
+                            <div class="skill-name">Python</div>
+                            <div class="skill-bar">
+                              <div class="skill-per" per="80%" style="max-width:80%"></div>
+                            </div>
+                          </div>
+
+                          <div class="skill">
+                            <div class="skill-name">Java</div>
+                            <div class="skill-bar">
+                              <div class="skill-per" per="80%" style="max-width:80%"></div>
+                            </div>
+                          </div>
+
+                        <div class="skill">
+                          <div class="skill-name">HTML</div>
+                          <div class="skill-bar">
+                            <div class="skill-per" per="60%" style="max-width:60%"></div>
+                          </div>
+                        </div>
+                      
+                        <div class="skill">
+                          <div class="skill-name">CSS</div>
+                          <div class="skill-bar">
+                            <div class="skill-per" per="50%" style="max-width:50%"></div>
+                          </div>
+                        </div>
+                      
+                        <div class="skill">
+                          <div class="skill-name">Javascript</div>
+                          <div class="skill-bar">
+                            <div class="skill-per" per="30%" style="max-width:30%"></div>
+                          </div>
+                        </div>
+                      
+                      
+                      </div>
+
+                </div>
             </div>
-            <h5>test</h5>
+            <div class="button">
+            <button class="btn"><a href="Pearce-Strickland-CS-Resume-2022.pdf" 
+                download="Pearce_Strickland_Resume" style="text-decoration: none;">Download My Resume</a></button>
+            </div>
         </div>
+    
     
     </div>
     <div class="portfolio" id="portfolio">
@@ -82,11 +143,11 @@
                 target="_blank"
                 > 
                 <img class="proj-pic" 
-                src="images/sketchbox.jpg" 
+                src="images/rps.png" 
                 alt="sketchbox background"
                 >
           </a>
-            <h4>Test</h4>
+            <h4>Javascript Rock Paper Scissors</h4>
             </div>
             <div class="portfolio-tile"><!-- flex item -->
                 <a
@@ -94,11 +155,11 @@
                 target="_blank"
                 > 
                 <img class="proj-pic" 
-                src="images/sketchbox.jpg" 
+                src="images/etch.jpg" 
                 alt="sketchbox background"
                 >
           </a>
-          <h4>Test</h4>
+          <h4>Javascript Etch a Sketch</h4>
             </div>
             <div class="portfolio-tile"><!-- flex item -->
                 <a
@@ -106,7 +167,7 @@
                 target="_blank"
                 > 
                 <img class="proj-pic" 
-                src="images/sketchbox.jpg" 
+                src="images/etch.jpg" 
                 alt="sketchbox background"
                 >
           </a>
